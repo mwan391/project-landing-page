@@ -1,0 +1,39 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* top section & navigation bar */
+.main {
+    background-color: #ac55f3;
+    color: #F9FAF8;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header-logo,
+.header-links {
+    margin: 10px 30px 5px;
+}
+
+.nav a {
+    color: #f9faf8;
+    padding: 5px;
+    text-decoration: none; /* remove link underline */
+    font-weight: 400;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+/* code is activated when cursor hovers over any <a> element ie underlined ! */
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    
+}
