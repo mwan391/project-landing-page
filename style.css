@@ -157,3 +157,13 @@ body {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    background-color: #ac55f3;
+    position: relative; /* lmao what does this even do */
+}
+
