@@ -35,5 +35,125 @@ body {
 }
 
 .main-content {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    margin: auto; /* automatically horizontally center the element within container (margins equally split) */
+    margin-top: 150px;
+    padding: 15px;
 }
+
+.main-info h1 {
+    font-size: 48px;
+    margin: 10px;
+}
+
+.main-info p {
+    margin: 10px;
+}
+
+.main-info button {
+    margin: 10px;
+    cursor: pointer; /* switch cursor to pointer finger when hovering over button */
+    outline: 0;
+    color: #fff;
+    background-color: #0d6efd;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: .25rem;/* round corners of button */
+    /*transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
+}   
+
+.main-info button:hover {
+    color: #fff;
+    background-color: #0b5ed7; /* when cursor hovers over, button darkens */
+    border-color: #0a58ca; /* border is darker */
+}
+
+.info-heading {
+    /* top & bottom have 0 margin and l & r have width sizing */
+    margin: 0 auto;
+}
+
+
+.random-info-container {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 500px;
+}
+
+.random-info-container .content-container {
+    display: flex;
+}
+
+.content-info {
+    margin: 15px;
+    width: 200px;   
+}
+
+.quote-container {
+    display: flex;
+    background-color: #e5e7eb;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-style: italic;
+    font-family: "Apple-Chancery";
+}
+
+.quote-container b {
+    padding-left: 10px;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: rgb(99, 22, 99);
+}
+
+.sign-up {
+    background-color: #fbff00;
+    border-radius: 7px;
+    width: 50%;
+    height: 50%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around   ;
+}  
+
+.sign-up-text p, 
+.sign-up-text h2 {
+    margin-bottom: 5px;
+}
+
+.sign-up-button button {
+    cursor: pointer;
+    outline: 0;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 1rem;
+    border-radius: .25rem;
+    color: #0d6efd;
+    border-color: #0d6efd;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
